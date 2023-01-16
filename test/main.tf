@@ -15,7 +15,7 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "LoadBalancerNS"
+  name     = "LoadBalancerSS"
   location = "West Europe"
 }
 
